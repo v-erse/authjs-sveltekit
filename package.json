@@ -28,6 +28,9 @@
   "type": "module",
   "dependencies": {
     "@auth/core": "^0.1.4",
-    "@auth/sveltekit": "^0.1.6"
+    "@auth/sveltekit": "^0.1.6",
+    "@next-auth/prisma-adapter": "^1.0.5",
+    "@prisma/client": "^4.7.1",
+    "prisma": "^4.7.1"
   }
 }

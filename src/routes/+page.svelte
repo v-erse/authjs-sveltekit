@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { signIn } from "@auth/sveltekit/client";
+  export let data: any;
 </script>
 
-<button on:click="{signIn}">Sign in</button>
+<pre>{JSON.stringify(data, null, 2)}</pre>
